@@ -601,8 +601,7 @@
 	name = "plasmacap"
 	seed_name = "plasma cap"
 	display_name = "Plasma Caps"
-	chems = list("plasma" = list(1,25))
-	materials = list(MATERIAL_PLASTEEL = 1)
+	chems = list("plasma" = list(40))
 	evolutions = null
 	origin_tech = list(TECH_MATERIAL = 2, TECH_PLASMA = 2)
 
@@ -769,8 +768,8 @@
 	name = "silverbells"
 	seed_name = "silverbell"
 	display_name = "silverbells"
-	materials = list(MATERIAL_SILVER = 1)
-	chems = list("nutriment" = list(1,50))
+	mutants = null
+	chems = list("nutriment" = list(1,50), "silver" = list(1,5))
 
 /datum/seed/flower/silverBell/New()
 	..()
